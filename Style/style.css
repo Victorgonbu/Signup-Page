@@ -1,0 +1,5 @@
+.sign-in-button {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 3/4;
+}
