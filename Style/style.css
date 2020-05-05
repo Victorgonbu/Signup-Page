@@ -4,6 +4,8 @@
 body{
     background-color:#ECEEF1  ;
     margin: 0 20px;
+    box-sizing: border-box;
+    font-family: sans-serif;
     
     
     
@@ -12,7 +14,7 @@ body{
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    box-sizing: border-box;
+   ;
     
 }
 
@@ -56,6 +58,120 @@ body{
 
 .main-logo {
     text-align: center;
-    border: 1px solid black;
->>>>>>> 82744dbf78970ce7c7a99b306ded11671c5bb4d4
+   
+   
+
+}
+
+.icons {
+    display: grid;
+    justify-content: center;
+  
+}
+
+.icons div {
+    display: flex;
+}
+
+.icons img {
+    height: 2rem;
+    
+    align-self: center;
+}
+
+.icons h4 {
+    padding: 0px .4rem;
+    font-size: 1rem;
+}
+
+.sign-in-section, .main-content-footer, footer {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    
+   
+}
+
+
+.main {
+
+    background-color: white; 
+    border: 1px solid #d8d8d8;   
+    width: 100%;
+}
+
+.upper-text h3 {
+    color: #4c4c4c;
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+
+
+}
+
+.upper-text p{
+    padding: 0;
+    margin: 0 2rem;
+    font-size: .9rem;
+     color: #4c4c4c;
+     
+}
+
+.upper-text a {
+    font-size: .8rem;
+    margin: 0;
+    margin-bottom: 100px;
+
+  
+}
+
+
+.labels{
+    margin: 2rem 1rem;
+}
+
+ .labels input {
+    margin: .5rem;
+    margin-bottom: 2rem;
+    height: 1.5rem;
+    width: 90%;
+    border-radius: 4px;
+    border: 1px solid #d8d8d8
+    ;
+   
+}
+
+.labels label {
+    
+   color: #4c4c4c;
+    display: inline-block; 
+    text-align: left;
+    width: 90%;
+    
+}
+
+.labels button {
+    background-color:#0077C5 ;
+    border: 1px solid #0077C5;
+    width: 80%;
+    height: 44px;
+    color: white;
+     border-radius: 4px;
+}
+
+.labels img {
+    height: 18px;
+    width: 18px;
+}
+
+.small-font{
+    font-size: .7rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+.main-content-footer {
+    font-size: .5rem;
+    background-color:#ECEEF1 ;
+    padding: .8rem;
 }
