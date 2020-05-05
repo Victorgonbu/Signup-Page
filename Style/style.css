@@ -1,5 +1,61 @@
+
+
+
+body{
+    background-color:#ECEEF1  ;
+    margin: 0 20px;
+    
+    
+    
+}
 .sign-in-button {
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    box-sizing: border-box;
+    
+}
+
+.right-top{
     grid-column: 3/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.right-top button {
+    width: 40%;
+    justify-self:start ;
+    height:60%  ;
+    align-self: center;
+    border-radius: 4px;
+    border: 1px solid black;
+    background-color: #0077C5;
+    color: white;
+    font-size: 1rem;
+    grid-column: 3/4;
+    
+}
+
+.right-top div {
+    
+    justify-self: end;
+    height: 60%;
+    align-self:center ;
+    padding: .5rem;
+    width: 100%;
+    text-align: right;
+    font-size: .9rem;
+    grid-column: 1/3;
+ 
+}
+
+.right-top p {
+    margin: 0;
+}
+
+.main-logo {
+    text-align: center;
+    border: 1px solid black;
+>>>>>>> 82744dbf78970ce7c7a99b306ded11671c5bb4d4
 }
