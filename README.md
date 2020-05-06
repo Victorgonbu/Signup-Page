@@ -18,7 +18,8 @@ Additional description about the project and its features.
 
 - Github: @balerum03
 - Twitter: @balerum03
-- Linkedin: https://www.linkedin.com/in/adan-fernandez-bonilla-4560831a5/
+- Linkedin: https://www.linkedin.com/in/adan-fernandez-bonilla-4560831a5 \
+ 
 👤 **Author2**
 
 - Github: @Shaqri
