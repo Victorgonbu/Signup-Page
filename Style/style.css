@@ -1,6 +1,8 @@
+html{
+    box-sizing: border-box;
+}
 body {
     background-color: #ECEEF1;
-    box-sizing: border-box;
     font-family: sans-serif;
     margin: 0 20px;
 }
@@ -12,20 +14,20 @@ a {
 
 .sign-in-button {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
 }
 
 .right-top {
     display: grid;
     grid-column: 3/4;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
 }
 
 .right-top button {
     align-self: center;
     background-color: #0077C5;
     border-radius: 4px;
-    border: 1px solid black;
+    border: 0;
     color: white;
     font-size: .7rem;
     grid-column: 3/4;
@@ -67,9 +69,11 @@ a {
     height: 2rem;
 }
 
-.icons h4 {
-    padding: 0px .4rem;
+.icons .tittle {
     font-size: 1rem;
+    padding: 0 .4rem;
+    font-weight: 500;
+    
 }
 
 .sign-in-section,
