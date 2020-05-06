@@ -2,7 +2,7 @@
 
 > This project consists of building an HTML document that matches the appearance of mint.com’s signup page
 
-![screenshot](/images/screenshot.png)
+![screenshot](/images/Screenshot.PNG)
 
 Additional description about the project and its features.
 
