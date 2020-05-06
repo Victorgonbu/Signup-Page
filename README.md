@@ -2,7 +2,7 @@
 
 > This project consists of building an HTML document that matches the appearance of mint.com’s signup page
 
-![screenshot](./images/screenshot.png)
+![screenshot](/images/screenshot.png)
 
 Additional description about the project and its features.
 
@@ -21,9 +21,9 @@ Additional description about the project and its features.
 - Linkedin: https://www.linkedin.com/in/adan-fernandez-bonilla-4560831a5/
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: @Shaqri
+- Twitter: @VictorGonbu
+- Linkedin: https://www.linkedin.com/in/victor-manuel-gonzalez-buitrago-8704731a5/
 
 ## 🤝 Contributing
 
