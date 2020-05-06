@@ -10,6 +10,11 @@ body{
     
     
 }
+a{
+    color: #0077C5 ;
+    text-decoration: none;
+}
+
 .sign-in-button {
     
     display: grid;
@@ -28,13 +33,13 @@ body{
 .right-top button {
     width: 40%;
     justify-self:start ;
-    height:60%  ;
+    height:70%  ;
     align-self: center;
     border-radius: 4px;
     border: 1px solid black;
     background-color: #0077C5;
     color: white;
-    font-size: 1rem;
+    font-size: .7rem;
     grid-column: 3/4;
     
 }
@@ -166,12 +171,24 @@ body{
 
 .small-font{
     font-size: .7rem;
-    padding: 1rem;
-    padding-bottom: 2rem;
+    padding: 0 0 3rem 0;
+    line-height: .8;
+    color: #757575;
+    
 }
+
+
 
 .main-content-footer {
     font-size: .5rem;
     background-color:#ECEEF1 ;
     padding: .8rem;
+   
+}
+
+footer {
+    font-size: 12px;
+    font-family: helvetica;
+    color: #505050;
+
 }
