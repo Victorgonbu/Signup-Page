@@ -45,6 +45,11 @@ a {
   width: 100%;
 }
 
+footer p {
+  margin: 0;
+  line-height: 1.5;
+}
+
 .right-top p {
   margin: 0;
 }
@@ -68,8 +73,18 @@ a {
 }
 
 .icons h4 {
+  font-weight: normal;
+  color: #757575;
   padding: 0 0.4rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
+}
+
+.phone-descrip {
+  margin-left: 1rem;
+  display: block;
+  text-align: left;
+  font-size: 0.6rem;
+  color: #444;
 }
 
 .sign-in-section,
@@ -112,10 +127,14 @@ footer {
 .labels input {
   border-radius: 4px;
   border: 1px solid #d8d8d8;
-  height: 1.5rem;
+  height: 2rem;
   margin: 0.5rem;
   margin-bottom: 2rem;
   width: 90%;
+}
+
+#phone {
+  margin-bottom: 0;
 }
 
 .labels label {
@@ -141,6 +160,7 @@ footer {
 
 .small-font {
   color: #757575;
+  font-style: italic;
   font-size: 0.7rem;
   line-height: 0.8;
   padding: 0 0 3rem 0;
@@ -153,7 +173,29 @@ footer {
 }
 
 footer {
+  align-items: center;
   color: #505050;
-  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
+  margin-top: 0;
+}
+
+.spacing-password {
+  margin-top: 2rem;
+}
+
+.flex-links {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  list-style: none;
+  margin: 1rem 0 0 0;
+  padding: 0;
+  width: 10%;
+}
+
+.flex-links a {
+  color: #505050;
 }
